@@ -24,8 +24,8 @@ header {
   text-align: center;
   background:linear-gradient(
     270deg,
-    #e2b561 40%,
-    #ff2020 80%
+    #f1f5fa 40%,
+    #2e0cec 80%
   ) ;
 }
 
@@ -60,8 +60,8 @@ section {
 #about, #projects, #contact {
   background: linear-gradient(
     270deg,
-    #e2b561 40%,
-    #ff2020 100%
+    #f3f3f5 40%,
+    #482cc5 100%
   );
   padding: 20px;
   border-radius: 10px;
@@ -74,8 +74,8 @@ section {
 footer {
   background: linear-gradient(
     270deg,
-    #e2b561 40%,
-    #ff2020 100%
+    #0609cf 40%,
+    #0e0c0c 100%
   );
   color: var(--bg-color);
   text-align: center;
@@ -87,13 +87,13 @@ button {
   padding: 1rem 3rem;
   background:linear-gradient(
     270deg,
-    #ff2020 40%,
-    #e2b561 100%
+    #3006a3 40%,
+    #14120b 100%
   );
-  box-shadow: 0 0 25px #ff2020;
+  box-shadow: 0 0 25px #2c0cbb;
   border-radius: 1rem;
   font-size: 1.2rem;
-  color: black;
+  color: rgb(248, 248, 248);
   border: 2px solid transparent;
   font-weight: 600;
   transition: 0.3s ease-in-out;
@@ -101,8 +101,8 @@ button {
 
 button:hover {
   transform: scale(1.02);
-  box-shadow: 0 0 25px #ff2020,
-              0 0 50px #ff2020;
+  box-shadow: 0 0 25px #054ca8,
+              0 0 50px #083e91;
 }
 
 form {
@@ -117,6 +117,6 @@ form label {
 form input, form textarea {
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ff2020;
+  border: 1px solid #0936b1;
   border-radius: 5px;
 }
